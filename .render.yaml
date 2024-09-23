@@ -1,0 +1,8 @@
+version: 1
+services:
+  - type: web
+    name: Hosted-chat-app production
+    env: node
+    plan: free
+    node:
+      version: 20.15.1
